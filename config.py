@@ -19,6 +19,7 @@ if os.path.exists(signingFilePath):
             print (storePassword)
         if line.__contains__('KEY_ALIAS'):
             alias = line.split('=')[1]
+            alias.encode().decode('utf-8')
             print (alias)
         if line.__contains__('KEY_PASSWORD'):
             password = line.split('=')[1]
