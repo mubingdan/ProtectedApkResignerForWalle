@@ -132,9 +132,9 @@ os.system(writeChannelShell)
 
 cleanTempResource()
 
-print "\n**** =============================TASK FINISHED=================================== ****\n"
-print "\n↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓   Please check channels in the path   ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓\n"
-print "\n"+channelsOutputFilePath+"\n"
-print "\n**** =============================TASK FINISHED=================================== ****\n"
+print ("\n**** =============================TASK FINISHED=================================== ****\n")
+print ("\n↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓   Please check channels in the path   ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓\n")
+print ("\n"+channelsOutputFilePath+"\n")
+print ("\n**** =============================TASK FINISHED=================================== ****\n")
 
 
